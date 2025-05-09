@@ -34,7 +34,7 @@ jobs:
       - name: Build and push Docker image for arm64
         uses: docker/build-push-action@v3
         with:
-          context: .
+          context: .              # contexto é o trabalho atual: './apps/api'
           push: true
           tags: ghcr.io/mendableai/firecrawl:latest
           platforms: linux/arm64
