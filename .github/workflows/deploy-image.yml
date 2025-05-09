@@ -33,5 +33,5 @@ jobs:
         with:
           context: ./apps/api
           push: true
-          tags: ghcr.io/mendableai/firecrawl:latest
+          tags: ghcr.io/restartxx/firecrawl:latest
           platforms: linux/arm64
